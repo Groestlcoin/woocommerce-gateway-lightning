@@ -1,13 +1,13 @@
 <?php
 /*
     Plugin Name: WooCommerce Lightning Gateway
-    Plugin URI:  https://github.com/ElementsProject/woocommerce-gateway-lightning
-    Description: Enable your WooCommerce store to accept Bitcoin Lightning payments.
-    Author:      Blockstream
-    Author URI:  https://blockstream.com
+    Plugin URI:  https://github.com/Groestlcoin/woocommerce-gateway-lightning
+    Description: Enable your WooCommerce store to accept Groestlcoin Lightning payments.
+    Author:      Groestlcoin Devs
+    Author URI:  https://groestlcoin.org
 
     Version:           0.2.6
-    GitHub Plugin URI: https://github.com/ElementsProject/woocommerce-gateway-lightning
+    GitHub Plugin URI: https://github.com/Groestlcoin/woocommerce-gateway-lightning
 */
 
 if ( ! defined( 'ABSPATH' ) ) {
@@ -76,7 +76,7 @@ if (!function_exists('init_wc_lightning')) {
             'title'       => __('Title', 'lightning'),
             'type'        => 'text',
             'description' => __('Controls the name of this payment method as displayed to the customer during checkout.', 'lightning'),
-            'default'     => __('Bitcoin Lightning', 'lightning'),
+            'default'     => __('Groestlcoin Lightning', 'lightning'),
             'desc_tip'    => true,
            ),
           'charge_url' => array (

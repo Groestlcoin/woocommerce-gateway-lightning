@@ -1,5 +1,5 @@
 {
-    "name": "elementsproject/woocommerce-gateway-lightning",
+    "name": "groestlcoin/woocommerce-gateway-lightning",
     "description": "WooCommerce Gateway Plugin for Lightning Charge",
     "version": "0.2.6",
     "license": "MIT",
